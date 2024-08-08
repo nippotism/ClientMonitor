@@ -9,7 +9,7 @@
     ```
     
 
-2. Install Guzzle
+2. Install Guzzle di aplikasi sim_rs (elims/prolims)
 
     ```bash
     composer require guzzlehttp/guzzle:7.7 --with-all-dependencies
