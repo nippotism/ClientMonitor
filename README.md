@@ -50,9 +50,15 @@
 
     schedulerBackup.bat:
 
+    ```bash
+    @echo off
+    cd {Your Path}\sim_rs
+    php artisan backup:post
+    ```
+
     Sesuaikan pathnya dengan path di komputer client, lakukan juga untuk backup.bat.
 
-2. Import Task Scheduler di Windows
+3. Import Task Scheduler di Windows
 
     - Buka Task Scheduler di Windows.
     - Import task XML yang sudah disediakan (CPU Util & Queries.xml dan Backup Monitoring.xml).
