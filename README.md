@@ -15,7 +15,7 @@
     composer require guzzlehttp/guzzle:7.7 --with-all-dependencies
     ```
     
-3. Pindah BackupPost,QueryPost, dan CpuPost ke
+3. Pindah BackupPost,QueryPost, dan CpuPost ke aplikasi sim_rs
     ```bash
    {your-path}/app/Console/Commands
     ```
